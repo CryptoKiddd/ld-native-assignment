@@ -1,23 +1,19 @@
 
-import { extendTheme,NativeBaseProvider, Box } from "native-base";
+import {NativeBaseProvider, Box } from "native-base";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from "./screens/Home";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
 import ForgotPassword from "./screens/ForgotPassword";
+import { theme } from "./theme/theme";
 
 
-
-import {COLORS} from './constants/index'
-
-const theme = extendTheme({ colors: COLORS });
 const config = {
   dependencies: {
     'linear-gradient': require('react-native-linear-gradient').default,
   },
 };
-
 const Stack = createNativeStackNavigator();
 
 export default function App() {
