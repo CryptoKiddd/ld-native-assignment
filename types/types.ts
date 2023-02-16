@@ -1,7 +1,6 @@
  
 export type FormPropsType = {
     inputs:string[],
-    header:string,
     subHeader:string,
     title:string,
     btntext:string,
@@ -10,10 +9,19 @@ export type FormPropsType = {
 
 }
 export type RootStackParamList = {
-    Home: undefined;
+    Main: undefined;
     Login: undefined;
     Register: undefined;
     ForgotPassword: undefined;
+   
+    
+  };
+export type DrawerParamList = {
+    Dashboard: undefined;
+    Orders: undefined;
+    Payment: undefined;
+    Products: undefined;
+    Subsctiption:undefined;
    
     
   };

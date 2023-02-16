@@ -1,11 +1,17 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View} from 'native-base'
+
+import CustomForms from '../components/CustomForms'
 
 const ForgotPassword = () => {
   return (
     <View>
-      <Text>ForgotPassword</Text>
-    </View>
+    <CustomForms 
+    inputs={['email']}
+    title='Enter your email and you will receive an email to recover your password' 
+    subHeader='Forgot Password'
+     btntext='Login'
+     context='forgot' />
+  </View>
   )
 }
 
