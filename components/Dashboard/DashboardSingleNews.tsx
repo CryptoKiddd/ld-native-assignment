@@ -1,6 +1,6 @@
 import { Box, HStack, Image, Text, VStack } from  'native-base'
 import React from 'react'
-import { DashboardSingleNewsProp } from '../types/types'
+import { DashboardSingleNewsProp } from '../../types/types'
 
 const DashboardSingleNews = ({header,content,quote,img}:DashboardSingleNewsProp) => {
   return (

@@ -32,3 +32,17 @@ export type DrawerParamList = {
     quote:string,
     img:string
   }
+  export type ProductType={
+    name:string,
+    price:number,
+  }
+  export type OrderType={
+    name:string,
+    status:string,
+    price:number,
+  }
+  export type UserType={
+    name:string,
+    email:string,
+    password:string,
+  }

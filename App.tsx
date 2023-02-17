@@ -13,6 +13,8 @@ import Products from './screens/Products';
 import Orders from './screens/Orders';
 import Payment from './screens/Payment';
 import Subscription from './screens/Subscription';
+import { store } from './redux/store/store';
+import {Provider} from "react-redux"
 
 const config = {
   dependencies: {
@@ -34,7 +36,7 @@ function AppDrawer() {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 
-export default function App() {
+ function App() {
   return (
     <NavigationContainer  >
     <NativeBaseProvider config={config} theme={theme}>
@@ -53,3 +55,10 @@ export default function App() {
     </NavigationContainer>
   );
 }
+export default () => {
+  return (
+    <Provider store={store}>
+      <App />
+    </Provider>
+  );
+};

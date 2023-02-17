@@ -1,12 +1,12 @@
 import { View, Text, Box,ScrollView, HStack} from 'native-base'
 import React from 'react'
-import DashboardCustomerSupport from '../components/DashboardCustomerSupport'
-import DashboardExtensions from '../components/DashboardExtensions'
-import DashboardHeader from '../components/DashboardHeader'
-import DashboardIndicators from '../components/DashboardIndicators'
-import DashboardInviteFriends from '../components/DashboardInviteFriends'
-import DashboardLatestNews from '../components/DashboardLatestNews'
-import DashboardReviews from '../components/DashboardReviews'
+import DashboardCustomerSupport from '../components/Dashboard/DashboardCustomerSupport'
+import DashboardExtensions from '../components/Dashboard/DashboardExtensions'
+import DashboardHeader from '../components/Dashboard/DashboardHeader'
+import DashboardIndicators from '../components/Dashboard/DashboardIndicators'
+import DashboardInviteFriends from '../components/Dashboard/DashboardInviteFriends'
+import DashboardLatestNews from '../components/Dashboard/DashboardLatestNews'
+import DashboardReviews from '../components/Dashboard/DashboardReviews'
 
 
 const Dashboard = () => {
