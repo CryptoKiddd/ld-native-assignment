@@ -25,3 +25,10 @@ export type DrawerParamList = {
    
     
   };
+
+  export type DashboardSingleNewsProp={
+    header:string,
+    content:string,
+    quote:string,
+    img:string
+  }
