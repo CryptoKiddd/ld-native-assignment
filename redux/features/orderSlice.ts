@@ -9,49 +9,112 @@ type ordersState ={
 const initialState:ordersState = {
     orders:[
         {
-            "name":"John Doe",
-            "price":1234,
-            "status":"Shipped"
+            name:"Anthony Joshua",
+            price:1234,
+            status:"Shipped",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Robby Williams",
-            "price":6543,
-            "status":"New"
+            name:"Robby Williams",
+            price:6543,
+            status:"New",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Donald Trump",
-            "price":2345,
-            "status":"Cancelled"
+            name:"Donald Trump",
+            price:2345,
+            status:"Cancelled",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Mike O'Hearn",
-            "price":2345,
-            "status":"In progress"
+            name:"Mike O'Hearn",
+            price:2345,
+            status:"In progress",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Devon Booker",
-            "price":9466,
-            "status":"New"
+            name:"Devon Booker",
+            price:9466,
+            status:"New",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Mohammad Salah",
-            "price":8421,
-            "status":"Shipped"
+            name:"Mohammad Salah",
+            price:8421,
+            status:"Shipped",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Joe Rogan",
-            "price":1111,
-            "status":"In progress"
+            name:"Tommy Markannen",
+            price:1111,
+            status:"In progress",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Gvatsa Beridze",
-            "price":3453,
-            "status":"In progress"
+            name:"Gvatsa Beridze",
+            price:3453,
+            status:"In progress",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         },
         {
-            "name":"Ronald Reigan",
-            "price":9876,
-            "status":"New"
+            name:"Ronald Reigan",
+            price:9876,
+            status:"New",
+            orderedAt:"29/05/2020  18:54",
+            address:"Via Roma, 59, Torre del Greco, NA, 80059",
+            client:'Mario Rossi',
+            tel:"+39 3333232331",
+            fiscal:"RSSMAR22T33M123K0",
+            service:"Forex",
+            orderline:"Numero/Link ordine: FR12342123 2314"
         }
     ],
     order:undefined

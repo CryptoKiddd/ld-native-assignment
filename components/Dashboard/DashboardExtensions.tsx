@@ -13,7 +13,8 @@ const DashboardExtensions = () => {
         <HStack mb='6' space='4'>
             <VStack >
                 <Box mb='3'  rounded='md' bgColor='#FFA26B' w='140' h='140' alignItems='center'justifyContent='center'>
-                    <Text>image</Text>
+                <Image resizeMode='contain' alt="ddg" source={require("../../assets/Icons/wwwGlobe.png")}/>
+
                 </Box>
                 <Text color='font.100'>Custom Domain</Text>
             </VStack>
@@ -25,8 +26,10 @@ const DashboardExtensions = () => {
             </VStack>
           
         </HStack>
-        <HStack>
+        <HStack w='100%' justifyContent='space-between'>
             <Text color='btn.500' underline={true} >Discover all extensions</Text>
+            <Image resizeMode='contain' alt="ddg" source={require("../../assets/Icons/arrow-right.png")}/>
+
         </HStack>
     </Box>
   )

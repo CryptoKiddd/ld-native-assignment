@@ -1,3 +1,5 @@
+import { ImageSourcePropType } from "react-native/Libraries/Image/Image";
+
  
 export type FormPropsType = {
     inputs:string[],
@@ -13,7 +15,7 @@ export type RootStackParamList = {
     Login: undefined;
     Register: undefined;
     ForgotPassword: undefined;
-   
+    NewProduct?:undefined;
     
   };
 export type DrawerParamList = {
@@ -22,15 +24,17 @@ export type DrawerParamList = {
     Payment: undefined;
     Products: undefined;
     Subsctiption:undefined;
+    NewProduct?:undefined;
    
     
   };
+
 
   export type DashboardSingleNewsProp={
     header:string,
     content:string,
     quote:string,
-    img:string
+    img:string |ImageSourcePropType
   }
   export type ProductType={
     name:string,
@@ -40,9 +44,23 @@ export type DrawerParamList = {
     name:string,
     status:string,
     price:number,
+    orderedAt:string,
+    address:string,
+    client:string,
+    tel:string,
+    fiscal:string,
+    service:string,
+    orderline:string
+   
   }
   export type UserType={
     name:string,
     email:string,
     password:string,
   }
+  export type OrderParamList = {
+    OrderRoot:undefined,
+    Order:{data:OrderType}
+     
+      
+    };

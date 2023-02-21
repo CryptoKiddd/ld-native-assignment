@@ -5,9 +5,9 @@ import { DashboardSingleNewsProp } from '../../types/types'
 const DashboardSingleNews = ({header,content,quote,img}:DashboardSingleNewsProp) => {
   return (
   
-     <HStack  w='295' h='113' alignItems='center' justifyContent='center' rounded='md' mb='10' bgColor='background.900' shadow='2'>
-        {/* <Image w='90' source={{uri:img}} /> */}
-        <Text w='90'>For Image</Text>
+     <HStack  w='295' h='113' alignItems='center'  rounded='md' mb='8' bgColor='background.900' shadow='2'>
+        <Image w='90' alt='ewf' source={img} />
+        
         <VStack w='190' p='2' shadow='4'>
             <Text fontSize='xs' color='btn.500'>{header}</Text>
             <Text fontSize='sm' fontWeight='600' my='1' color='font.200'>{content}</Text>

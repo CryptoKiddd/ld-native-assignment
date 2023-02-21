@@ -9,6 +9,7 @@ import {
   Input,
   WarningOutlineIcon,
   Button,
+  Image,
 } from "native-base";
 
 import { FormPropsType, RootStackParamList } from "../types/types";
@@ -121,19 +122,26 @@ const CustomForms = ({
       {context === "login" ? (
         <Box w="90%" mt="5" alignItems="center">
           <Button _text={{color:'font.200',fontWeight:600}} borderColor="btn.500" variant="outline" w="100%" mb="3">
+          <Image  position='absolute' left='-50' top='-2' resizeMode='contain' alt="cv"  source={require('../assets/Icons/Facebook-square.png')}/>
+
             Sign In with facebook
           </Button>
           <Button _text={{color:'font.200',fontWeight:600}} borderColor="btn.500" variant="outline" w="100%" mb="3">
+          <Image  position='absolute' left='-54' top='-2' resizeMode='contain' alt="cv"  source={require('../assets/Icons/google-login.png')}/>
+
             Sign In with google
           </Button>
         </Box>
       ) : context === "register" ? (
         <Box w="90%" mt="5" alignItems="center">
-          <Button _text={{color:'font.200', fontWeight:600}} borderColor="btn.500" variant="outline" w="100%" mb="3">
+           <Button _text={{color:'font.200',fontWeight:600}} borderColor="btn.500" variant="outline" w="100%" mb="3">
+          <Image  position='absolute' left='-50' top='-2' resizeMode='contain' alt="cv"  source={require('../assets/Icons/Facebook-square.png')}/>
+
             Sign In with facebook
           </Button>
-          <Button _text={{color:'font.200',fontWeight:600}} variant="outline" borderColor="btn.500" w="100%" mb="3">
-         
+          <Button _text={{color:'font.200',fontWeight:600}} borderColor="btn.500" variant="outline" w="100%" mb="3">
+          <Image  position='absolute' left='-54' top='-2' resizeMode='contain' alt="cv"  source={require('../assets/Icons/google-login.png')}/>
+
             Sign In with google
           </Button>
         </Box>
@@ -158,9 +166,17 @@ const CustomForms = ({
   background='#FFFFFF'
   borderWidth='1'
   borderColor='btn.700'
- _text={{color:'font.200'}}
+ _text={{color:'font.200', ml:'7'}}
   borderRadius='full'
-  shadow='2'>Support</Button>
+  shadow='2'
+  w='150'
+  h='50'
+  display='flex'
+  flexDirection='row'
+  >
+  <Image ml='2'  position='absolute' left='-20' top='-4' resizeMode='contain' alt="cv"  source={require('../assets/Icons/headphones.png')}/>
+    Support
+  </Button>
       
     </Box>
   );
